@@ -12,6 +12,8 @@ int dy[6] = {0, 0, 1, -1, 0, 0};
 int dz[6] = {0, 0, 0, 0, 1, -1};
 
 int main() {
+	ios::sync_with_stdio(0);
+	cin.tie(0);
 	cin >> m >> n >> h;
 	for(int i = 0; i < h; i++) {
 		for(int j = 0; j < n; j++) {
